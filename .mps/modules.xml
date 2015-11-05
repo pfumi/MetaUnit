@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/metaunit/metaunit.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/metaunit/runtime/metaunit.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/metaunit/sandbox/metaunit.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/metaunit.build/metaunit.build.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
