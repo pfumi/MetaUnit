@@ -4557,35 +4557,6 @@
         <node concept="3uibUv" id="7V__JxvuHiG" role="1tU5fm">
           <ref role="3uigEE" to="mmod:~TestRule" resolve="TestRule" />
         </node>
-        <node concept="2ShNRf" id="1$9Z_DRUaLW" role="33vP2m">
-          <node concept="1pGfFk" id="1$9Z_DRUaLX" role="2ShVmc">
-            <ref role="37wK5l" to="mmod:~Timeout.&lt;init&gt;(int)" resolve="Timeout" />
-            <node concept="3cmrfG" id="1$9Z_DRUaLY" role="37wK5m">
-              <property role="3cmrfH" value="1000" />
-              <node concept="17Uvod" id="6aa9N8td3K_" role="lGtFl">
-                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
-                <property role="2qtEX9" value="value" />
-                <node concept="3zFVjK" id="6aa9N8td3KA" role="3zH0cK">
-                  <node concept="3clFbS" id="6aa9N8td3KB" role="2VODD2">
-                    <node concept="3clFbF" id="6aa9N8td42A" role="3cqZAp">
-                      <node concept="2OqwBi" id="6aa9N8td4GZ" role="3clFbG">
-                        <node concept="2OqwBi" id="6aa9N8td49F" role="2Oq$k0">
-                          <node concept="30H73N" id="6aa9N8td42_" role="2Oq$k0" />
-                          <node concept="3TrEf2" id="6aa9N8td4sW" role="2OqNvi">
-                            <ref role="3Tt5mk" to="q2zv:4rbtMPdakOH" />
-                          </node>
-                        </node>
-                        <node concept="3TrcHB" id="6aa9N8td50U" role="2OqNvi">
-                          <ref role="3TsBF5" to="q2zv:3Rm1noWjqIZ" resolve="value" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="2AHcQZ" id="1$9Z_DRUaM8" role="2AJF6D">
           <ref role="2AI5Lk" to="daro:~ClassRule" resolve="ClassRule" />
         </node>
@@ -4615,6 +4586,34 @@
             </node>
           </node>
         </node>
+        <node concept="2YIFZM" id="7kknSjw432u" role="33vP2m">
+          <ref role="37wK5l" to="mmod:~Timeout.millis(long):org.junit.rules.Timeout" resolve="millis" />
+          <ref role="1Pybhc" to="mmod:~Timeout" resolve="Timeout" />
+          <node concept="3cmrfG" id="7kknSjw439Q" role="37wK5m">
+            <property role="3cmrfH" value="1000" />
+            <node concept="17Uvod" id="7kknSjw43oY" role="lGtFl">
+              <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
+              <property role="2qtEX9" value="value" />
+              <node concept="3zFVjK" id="7kknSjw43oZ" role="3zH0cK">
+                <node concept="3clFbS" id="7kknSjw43p0" role="2VODD2">
+                  <node concept="3clFbF" id="6aa9N8td42A" role="3cqZAp">
+                    <node concept="2OqwBi" id="6aa9N8td4GZ" role="3clFbG">
+                      <node concept="2OqwBi" id="6aa9N8td49F" role="2Oq$k0">
+                        <node concept="30H73N" id="6aa9N8td42_" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="6aa9N8td4sW" role="2OqNvi">
+                          <ref role="3Tt5mk" to="q2zv:4rbtMPdakOH" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="6aa9N8td50U" role="2OqNvi">
+                        <ref role="3TsBF5" to="q2zv:3Rm1noWjqIZ" resolve="value" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="312cEg" id="1$9Z_DRU9Wb" role="jymVt">
         <property role="TrG5h" value="timeoutTests" />
@@ -4624,35 +4623,6 @@
         <property role="IEkAT" value="false" />
         <node concept="3uibUv" id="7V__JxvuHiE" role="1tU5fm">
           <ref role="3uigEE" to="mmod:~TestRule" resolve="TestRule" />
-        </node>
-        <node concept="2ShNRf" id="1$9Z_DRU9Wd" role="33vP2m">
-          <node concept="1pGfFk" id="1$9Z_DRU9We" role="2ShVmc">
-            <ref role="37wK5l" to="mmod:~Timeout.&lt;init&gt;(int)" resolve="Timeout" />
-            <node concept="3cmrfG" id="1$9Z_DRU9Wf" role="37wK5m">
-              <property role="3cmrfH" value="1000" />
-              <node concept="17Uvod" id="6aa9N8td984" role="lGtFl">
-                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
-                <property role="2qtEX9" value="value" />
-                <node concept="3zFVjK" id="6aa9N8td985" role="3zH0cK">
-                  <node concept="3clFbS" id="6aa9N8td986" role="2VODD2">
-                    <node concept="3clFbF" id="6aa9N8td9q5" role="3cqZAp">
-                      <node concept="2OqwBi" id="6aa9N8tda9y" role="3clFbG">
-                        <node concept="2OqwBi" id="6aa9N8td9Ae" role="2Oq$k0">
-                          <node concept="30H73N" id="6aa9N8td9q4" role="2Oq$k0" />
-                          <node concept="3TrEf2" id="6aa9N8td9Tv" role="2OqNvi">
-                            <ref role="3Tt5mk" to="q2zv:5AX1pX0zh2Q" />
-                          </node>
-                        </node>
-                        <node concept="3TrcHB" id="6aa9N8tdasX" role="2OqNvi">
-                          <ref role="3TsBF5" to="q2zv:3Rm1noWjqIZ" resolve="value" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
         </node>
         <node concept="3Tm1VV" id="1$9Z_DRU9Wp" role="1B3o_S" />
         <node concept="2AHcQZ" id="1$9Z_DRU9Wq" role="2AJF6D">
@@ -4676,6 +4646,34 @@
                     </node>
                     <node concept="3TrcHB" id="6aa9N8td7qh" role="2OqNvi">
                       <ref role="3TsBF5" to="q2zv:3Rm1noWjqIZ" resolve="value" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2YIFZM" id="7kknSjw4536" role="33vP2m">
+          <ref role="37wK5l" to="mmod:~Timeout.millis(long):org.junit.rules.Timeout" resolve="millis" />
+          <ref role="1Pybhc" to="mmod:~Timeout" resolve="Timeout" />
+          <node concept="3cmrfG" id="7kknSjw4537" role="37wK5m">
+            <property role="3cmrfH" value="1000" />
+            <node concept="17Uvod" id="7kknSjw4538" role="lGtFl">
+              <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
+              <property role="2qtEX9" value="value" />
+              <node concept="3zFVjK" id="7kknSjw4539" role="3zH0cK">
+                <node concept="3clFbS" id="7kknSjw453a" role="2VODD2">
+                  <node concept="3clFbF" id="7kknSjw453b" role="3cqZAp">
+                    <node concept="2OqwBi" id="7kknSjw453c" role="3clFbG">
+                      <node concept="2OqwBi" id="7kknSjw453d" role="2Oq$k0">
+                        <node concept="30H73N" id="7kknSjw453e" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="7kknSjw4fUA" role="2OqNvi">
+                          <ref role="3Tt5mk" to="q2zv:5AX1pX0zh2Q" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="7kknSjw453g" role="2OqNvi">
+                        <ref role="3TsBF5" to="q2zv:3Rm1noWjqIZ" resolve="value" />
+                      </node>
                     </node>
                   </node>
                 </node>

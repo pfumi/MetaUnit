@@ -5,7 +5,7 @@
       <sourceRoot path="${module}/languageModels" />
     </modelRoot>
     <modelRoot contentPath="${module}" type="java_classes">
-      <sourceRoot location="junit-4.11.jar" />
+      <sourceRoot location="junit-4.12.jar" />
     </modelRoot>
   </models>
   <accessoryModels />
@@ -57,7 +57,7 @@
     </generator>
   </generators>
   <stubModelEntries>
-    <stubModelEntry path="${module}/junit-4.11.jar" />
+    <stubModelEntry path="${module}/junit-4.12.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
