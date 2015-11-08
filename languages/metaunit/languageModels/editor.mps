@@ -2679,9 +2679,6 @@
         <node concept="3F0ifn" id="4shywHnjM90" role="3EZMnx">
           <property role="3F0ifm" value="A:" />
           <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
-          <node concept="VPM3Z" id="4shywHnjM92" role="3F10Kt">
-            <property role="VOm3f" value="false" />
-          </node>
           <node concept="VPXOz" id="5bVSkoM_EPY" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>

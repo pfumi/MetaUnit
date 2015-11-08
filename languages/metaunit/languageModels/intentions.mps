@@ -8,7 +8,6 @@
   <imports>
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="q2zv" ref="r:cbbdef13-7776-4a74-8594-109f1e5b8353(metaunit.structure)" implicit="true" />
-    <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
     <import index="9pk9" ref="r:557e4be0-0f81-42a2-b707-75fc059e0117(metaunit.behavior)" implicit="true" />
   </imports>
   <registry>
@@ -78,7 +77,6 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
-      <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="1163668896201" name="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" flags="nn" index="3K4zz7">
         <child id="1163668914799" name="condition" index="3K4Cdx" />
         <child id="1163668922816" name="ifTrue" index="3K4E3e" />
@@ -299,28 +297,15 @@
     <node concept="2SaL7w" id="65CtSQwM8gk" role="2ZfVeh">
       <node concept="3clFbS" id="65CtSQwM8gl" role="2VODD2">
         <node concept="3cpWs6" id="uxAEBP18kY" role="3cqZAp">
-          <node concept="3y3z36" id="7kENph0ADUs" role="3cqZAk">
-            <node concept="10Nm6u" id="7kENph0AEaw" role="3uHU7w" />
-            <node concept="2OqwBi" id="7kENph0ACEa" role="3uHU7B">
-              <node concept="2OqwBi" id="uxAEBP18mG" role="2Oq$k0">
-                <node concept="2OqwBi" id="uxAEBP18mH" role="2Oq$k0">
-                  <node concept="2OqwBi" id="uxAEBP18mI" role="2Oq$k0">
-                    <node concept="2Sf5sV" id="uxAEBP1d9g" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="uxAEBP18mK" role="2OqNvi">
-                      <ref role="3Tt5mk" to="q2zv:4shywHnanSJ" />
-                    </node>
-                  </node>
-                  <node concept="2qgKlT" id="uxAEBP18mL" role="2OqNvi">
-                    <ref role="37wK5l" to="9pk9:uxAEBOXf6x" resolve="getMethodCall" />
-                  </node>
-                </node>
-                <node concept="3TrEf2" id="uxAEBP18mM" role="2OqNvi">
-                  <ref role="3Tt5mk" to="tpee:hwllgre" />
-                </node>
+          <node concept="2OqwBi" id="qHkDTwjXQ0" role="3cqZAk">
+            <node concept="2OqwBi" id="qHkDTwjWxP" role="2Oq$k0">
+              <node concept="2Sf5sV" id="qHkDTwjWtM" role="2Oq$k0" />
+              <node concept="3TrEf2" id="qHkDTwjWI8" role="2OqNvi">
+                <ref role="3Tt5mk" to="q2zv:4shywHnanSJ" />
               </node>
-              <node concept="2qgKlT" id="7kENph0ADFe" role="2OqNvi">
-                <ref role="37wK5l" to="tpek:i2fhBNC" resolve="getExpectedRetType" />
-              </node>
+            </node>
+            <node concept="2qgKlT" id="qHkDTwjYdj" role="2OqNvi">
+              <ref role="37wK5l" to="9pk9:qHkDTwjKMW" resolve="methodCallReturnTypeIsNotNull" />
             </node>
           </node>
         </node>
