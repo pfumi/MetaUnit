@@ -161,8 +161,8 @@
           <property role="2Ry0Am" value="Program Files (x86)" />
           <node concept="2Ry0Ak" id="2ORx22CVNAY" role="2Ry0An">
             <property role="2Ry0Am" value="JetBrains" />
-            <node concept="2Ry0Ak" id="2t1uy3xDKnR" role="2Ry0An">
-              <property role="2Ry0Am" value="IntelliJ IDEA 14.1.5" />
+            <node concept="2Ry0Ak" id="7HTxWJvhM3A" role="2Ry0An">
+              <property role="2Ry0Am" value="IntelliJ IDEA 14.1.4" />
             </node>
           </node>
         </node>
