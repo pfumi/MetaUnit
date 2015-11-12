@@ -105,7 +105,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="statements" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="7H37mS2zmXi" resolve="TestStatement" />
+      <ref role="20lvS9" node="owTaGBlQqp" resolve="MethodStatement" />
     </node>
     <node concept="PrWs8" id="5Rt5lP9ryeO" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -120,7 +120,7 @@
   <node concept="1TIwiD" id="7H37mS2zmXi">
     <property role="TrG5h" value="TestStatement" />
     <property role="R5$K7" value="false" />
-    <property role="3GE5qa" value="test" />
+    <property role="3GE5qa" value="test.statement" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4shywHnanSJ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -132,6 +132,9 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="assure" />
       <ref role="20lvS9" node="1120cSOoIJh" resolve="AssureExpression" />
+    </node>
+    <node concept="PrWs8" id="owTaGBlQuY" role="PzmwI">
+      <ref role="PrY4T" node="owTaGBlQqp" resolve="MethodStatement" />
     </node>
   </node>
   <node concept="1TIwiD" id="4KF2x5C4dkr">
@@ -177,7 +180,7 @@
     <property role="TrG5h" value="TestSetting" />
   </node>
   <node concept="1TIwiD" id="1120cSOoBf9">
-    <property role="3GE5qa" value="test.expressions" />
+    <property role="3GE5qa" value="test.assure" />
     <property role="TrG5h" value="AssureEquals" />
     <property role="34LRSv" value="is equal" />
     <property role="R4oN_" value="object, number" />
@@ -187,14 +190,14 @@
     </node>
   </node>
   <node concept="1TIwiD" id="1120cSOoBkc">
-    <property role="3GE5qa" value="test.expressions" />
+    <property role="3GE5qa" value="test.assure" />
     <property role="TrG5h" value="AssureSame" />
     <property role="34LRSv" value="is same" />
     <property role="R4oN_" value="object references" />
     <ref role="1TJDcQ" node="5ITL0zq51jD" resolve="AssureBinaryExpression" />
   </node>
   <node concept="1TIwiD" id="1120cSOoBkd">
-    <property role="3GE5qa" value="test.expressions" />
+    <property role="3GE5qa" value="test.assure" />
     <property role="TrG5h" value="AssureNotSame" />
     <property role="34LRSv" value="is not same" />
     <property role="R4oN_" value="object references" />
@@ -208,7 +211,7 @@
     <ref role="1TJDcQ" node="1120cSOoBf9" resolve="AssureEquals" />
   </node>
   <node concept="1TIwiD" id="1120cSOoIJh">
-    <property role="3GE5qa" value="test.expressions" />
+    <property role="3GE5qa" value="test.assure" />
     <property role="TrG5h" value="AssureExpression" />
     <property role="R5$K7" value="true" />
     <property role="34LRSv" value="&lt;assure&gt;" />
@@ -218,21 +221,21 @@
     </node>
   </node>
   <node concept="1TIwiD" id="6LYDvoDWOqK">
-    <property role="3GE5qa" value="test.expressions" />
+    <property role="3GE5qa" value="test.assure" />
     <property role="TrG5h" value="AssureTrue" />
     <property role="34LRSv" value="is true" />
     <property role="R4oN_" value="custom condition" />
     <ref role="1TJDcQ" node="5ITL0zq5uSZ" resolve="AssureCondExpression" />
   </node>
   <node concept="1TIwiD" id="6LYDvoDWOPu">
-    <property role="3GE5qa" value="test.expressions" />
+    <property role="3GE5qa" value="test.assure" />
     <property role="TrG5h" value="AssureFalse" />
     <property role="34LRSv" value="is false" />
     <property role="R4oN_" value="custom condition" />
     <ref role="1TJDcQ" node="5ITL0zq5uSZ" resolve="AssureCondExpression" />
   </node>
   <node concept="1TIwiD" id="7Kt3wuol926">
-    <property role="3GE5qa" value="test.expressions" />
+    <property role="3GE5qa" value="test.assure" />
     <property role="TrG5h" value="AssureNull" />
     <ref role="1TJDcQ" node="5ITL0zq5uSZ" resolve="AssureCondExpression" />
     <node concept="PrWs8" id="7Kt3wuolZty" role="PzmwI">
@@ -240,7 +243,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="5ITL0zq51jD">
-    <property role="3GE5qa" value="test.expressions" />
+    <property role="3GE5qa" value="test.assure" />
     <property role="TrG5h" value="AssureBinaryExpression" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="1120cSOoIJh" resolve="AssureExpression" />
@@ -258,7 +261,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="5ITL0zq5uSZ">
-    <property role="3GE5qa" value="test.expressions" />
+    <property role="3GE5qa" value="test.assure" />
     <property role="TrG5h" value="AssureCondExpression" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="1120cSOoIJh" resolve="AssureExpression" />
@@ -270,7 +273,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="5ITL0zqg9tL">
-    <property role="3GE5qa" value="test.expressions" />
+    <property role="3GE5qa" value="test.assure" />
     <property role="TrG5h" value="AssureNotNull" />
     <ref role="1TJDcQ" node="5ITL0zq5uSZ" resolve="AssureCondExpression" />
     <node concept="PrWs8" id="5ITL0zqg9ZE" role="PzmwI">
@@ -521,7 +524,7 @@
     </node>
   </node>
   <node concept="PlHQZ" id="VNCIDnqpUW">
-    <property role="3GE5qa" value="test.expressions" />
+    <property role="3GE5qa" value="test.assure" />
     <property role="TrG5h" value="AssureFloatDelta" />
     <node concept="1TJgyj" id="VNCIDnqqbv" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -555,6 +558,21 @@
       <property role="20kJfa" value="prepCreation" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="4shywHnlNGe" resolve="PrepCreation" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="owTaGBlQqp">
+    <property role="3GE5qa" value="test.statement" />
+    <property role="TrG5h" value="MethodStatement" />
+  </node>
+  <node concept="1TIwiD" id="owTaGBlTBB">
+    <property role="3GE5qa" value="test.statement" />
+    <property role="TrG5h" value="ClearStatement" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="owTaGBlTO$" role="PzmwI">
+      <ref role="PrY4T" node="owTaGBlQqp" resolve="MethodStatement" />
+    </node>
+    <node concept="PrWs8" id="4AEtnDX8xJU" role="PzmwI">
+      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
     </node>
   </node>
 </model>

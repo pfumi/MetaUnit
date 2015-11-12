@@ -2645,6 +2645,7 @@
   </node>
   <node concept="jVnub" id="44LSAJq5Ird">
     <property role="TrG5h" value="ReduceTestMethod" />
+    <property role="3GE5qa" value="test.statement" />
     <node concept="3aamgX" id="44LSAJq5IA7" role="3aUrZf">
       <property role="36QftV" value="true" />
       <ref role="30HIoZ" to="q2zv:7H37mS2zmXi" resolve="TestStatement" />
@@ -2915,6 +2916,7 @@
         </node>
       </node>
     </node>
+    <node concept="b5Tf3" id="4AEtnDXFYOV" role="jxRDz" />
   </node>
   <node concept="312cEu" id="60kwJjL3Cbr">
     <property role="TrG5h" value="junit3_map_ClassRef" />
@@ -3764,6 +3766,7 @@
   </node>
   <node concept="13MO4I" id="4qck9FpVkQk">
     <property role="TrG5h" value="TestMethodCall" />
+    <property role="3GE5qa" value="test.statement" />
     <ref role="3gUMe" to="q2zv:7H37mS2zmXi" resolve="TestStatement" />
     <node concept="312cEu" id="4qck9FpWbD4" role="13RCb5">
       <property role="2bfB8j" value="true" />

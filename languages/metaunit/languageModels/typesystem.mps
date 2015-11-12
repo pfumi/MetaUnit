@@ -442,7 +442,7 @@
   </node>
   <node concept="1YbPZF" id="5ITL0zq4$N6">
     <property role="TrG5h" value="typeof_AssureCondExpression" />
-    <property role="3GE5qa" value="test.expressions" />
+    <property role="3GE5qa" value="test.assure" />
     <node concept="3clFbS" id="5ITL0zq4$N7" role="18ibNy">
       <node concept="1Z5TYs" id="5ITL0zq4$Pk" role="3cqZAp">
         <node concept="mw_s8" id="5ITL0zq4$PF" role="1ZfhKB">
@@ -471,7 +471,7 @@
   </node>
   <node concept="1YbPZF" id="5ITL0zpWlTJ">
     <property role="TrG5h" value="typeof_AssureBinaryExpression" />
-    <property role="3GE5qa" value="test.expressions" />
+    <property role="3GE5qa" value="test.assure" />
     <node concept="3clFbS" id="5ITL0zpWlTK" role="18ibNy">
       <node concept="1ZoVOM" id="5ITL0zpWlUq" role="3cqZAp">
         <node concept="mw_s8" id="5ITL0zpWlUr" role="1ZfhKB">
@@ -507,7 +507,7 @@
   </node>
   <node concept="18kY7G" id="5ITL0zpWox_">
     <property role="TrG5h" value="check_AssureBinaryExpression" />
-    <property role="3GE5qa" value="test.expressions" />
+    <property role="3GE5qa" value="test.assure" />
     <node concept="3clFbS" id="5ITL0zpWoxA" role="18ibNy">
       <node concept="3clFbJ" id="5ITL0zpWoyy" role="3cqZAp">
         <node concept="3clFbS" id="5ITL0zpWoyz" role="3clFbx">
@@ -565,7 +565,7 @@
   </node>
   <node concept="18kY7G" id="5ITL0zqavHL">
     <property role="TrG5h" value="check_AssureCondExpression" />
-    <property role="3GE5qa" value="test.expressions" />
+    <property role="3GE5qa" value="test.assure" />
     <node concept="3clFbS" id="5ITL0zqavHM" role="18ibNy">
       <node concept="3clFbJ" id="5ITL0zqavLI" role="3cqZAp">
         <node concept="3clFbS" id="5ITL0zqavLJ" role="3clFbx">
@@ -1409,7 +1409,7 @@
     </node>
   </node>
   <node concept="Q5z_Y" id="2Y8p2ROWsKt">
-    <property role="3GE5qa" value="test.expressions" />
+    <property role="3GE5qa" value="test.assure" />
     <property role="TrG5h" value="AddDeltaValueFix" />
     <node concept="Q5ZZ6" id="2Y8p2ROWsKu" role="Q6x$H">
       <node concept="3clFbS" id="2Y8p2ROWsKv" role="2VODD2">
@@ -1484,7 +1484,7 @@
   </node>
   <node concept="18kY7G" id="2Y8p2RP2d3_">
     <property role="TrG5h" value="check_AssureEquals" />
-    <property role="3GE5qa" value="test.expressions" />
+    <property role="3GE5qa" value="test.assure" />
     <property role="18ip37" value="true" />
     <node concept="3clFbS" id="2Y8p2RP2d3A" role="18ibNy">
       <node concept="3cpWs8" id="1I1ogWOrdsP" role="3cqZAp">
@@ -1956,7 +1956,7 @@
     </node>
   </node>
   <node concept="Q5z_Y" id="6TX6h9MyEZ5">
-    <property role="3GE5qa" value="test.expressions" />
+    <property role="3GE5qa" value="test.assure" />
     <property role="TrG5h" value="FixArrayOperation" />
     <node concept="Q5ZZ6" id="6TX6h9MyEZ6" role="Q6x$H">
       <node concept="3clFbS" id="6TX6h9MyEZ7" role="2VODD2">
@@ -2467,7 +2467,7 @@
   </node>
   <node concept="1YbPZF" id="XQ62MpF2tj">
     <property role="TrG5h" value="typeof_TestStatement" />
-    <property role="3GE5qa" value="test" />
+    <property role="3GE5qa" value="test.statement" />
     <node concept="3clFbS" id="XQ62MpF2tk" role="18ibNy">
       <node concept="1Z5TYs" id="2_vU53MlU5c" role="3cqZAp">
         <node concept="mw_s8" id="2_vU53MlU5d" role="1ZfhKB">
