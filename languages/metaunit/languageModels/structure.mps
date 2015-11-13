@@ -202,6 +202,9 @@
     <property role="34LRSv" value="is not same" />
     <property role="R4oN_" value="object references" />
     <ref role="1TJDcQ" node="5ITL0zq51jD" resolve="AssureBinaryExpression" />
+    <node concept="PrWs8" id="4AEtnDY3Rr8" role="PzmwI">
+      <ref role="PrY4T" node="4AEtnDY3Rmj" resolve="AssureBinaryNotExpression" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1120cSOoBne">
     <property role="3GE5qa" value="junit4.test.expressions" />
@@ -209,6 +212,9 @@
     <property role="34LRSv" value="is not equal" />
     <property role="R4oN_" value="object, number" />
     <ref role="1TJDcQ" node="1120cSOoBf9" resolve="AssureEquals" />
+    <node concept="PrWs8" id="4AEtnDY3RsM" role="PzmwI">
+      <ref role="PrY4T" node="4AEtnDY3Rmj" resolve="AssureBinaryNotExpression" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1120cSOoIJh">
     <property role="3GE5qa" value="test.assure" />
@@ -574,6 +580,10 @@
     <node concept="PrWs8" id="4AEtnDX8xJU" role="PzmwI">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="4AEtnDY3Rmj">
+    <property role="3GE5qa" value="test.assure" />
+    <property role="TrG5h" value="AssureBinaryNotExpression" />
   </node>
 </model>
 

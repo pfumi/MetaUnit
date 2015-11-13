@@ -614,15 +614,18 @@
             <node concept="VPM3Z" id="4AEtnDXzthE" role="3F10Kt">
               <property role="VOm3f" value="false" />
             </node>
-            <node concept="35HoNQ" id="4AEtnDXCbb7" role="3EZMnx">
-              <node concept="VPM3Z" id="4AEtnDXCbEq" role="3F10Kt">
+            <node concept="3F0ifn" id="4AEtnDXztJD" role="3EZMnx">
+              <property role="3F0ifm" value="clear" />
+              <ref role="1ERwB7" node="4AEtnDXAtty" resolve="MethodRefFirstStatementsDelete" />
+              <ref role="1k5W1q" to="tpen:hinfsDb" resolve="EmptyCell" />
+            </node>
+            <node concept="35HoNQ" id="4AEtnDXRxvg" role="3EZMnx">
+              <node concept="VPM3Z" id="4AEtnDXU$2R" role="3F10Kt">
                 <property role="VOm3f" value="false" />
               </node>
-            </node>
-            <node concept="3F0ifn" id="4AEtnDXztJD" role="3EZMnx">
-              <property role="3F0ifm" value="-&gt;" />
-              <ref role="1k5W1q" to="tpen:hinfsDb" resolve="EmptyCell" />
-              <ref role="1ERwB7" node="4AEtnDXAtty" resolve="MethodRefFirstStatementsDelete" />
+              <node concept="11LMrY" id="4AEtnDXRxwe" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
             </node>
             <node concept="3F2HdR" id="4Lr1IwglJvu" role="3EZMnx">
               <property role="S$F3r" value="false" />
@@ -1693,8 +1696,8 @@
                       </node>
                       <node concept="1OKiuA" id="5ITL0zqa7AE" role="2OqNvi">
                         <node concept="1Q80Hx" id="5ITL0zqa7AF" role="lBI5i" />
-                        <node concept="2B6iha" id="5ITL0zqa7E_" role="lGT1i">
-                          <property role="1lyBwo" value="firstEditable" />
+                        <node concept="2TlHUq" id="4AEtnDY6dfQ" role="lGT1i">
+                          <ref role="2TlMyj" to="tpco:1USvB3ZvF7B" resolve="ALIAS_EDITOR_COMPONENT" />
                         </node>
                         <node concept="3cmrfG" id="5ITL0zqa7Gk" role="3dN3m$">
                           <property role="3cmrfH" value="-1" />
@@ -3803,18 +3806,18 @@
     <property role="3GE5qa" value="test.statement" />
     <ref role="1XX52x" to="q2zv:owTaGBlTBB" resolve="ClearStatement" />
     <node concept="3EZMnI" id="owTaGBpMpS" role="2wV5jI">
-      <node concept="35HoNQ" id="4AEtnDXeFad" role="3EZMnx">
-        <node concept="pVoyu" id="4AEtnDXeFak" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="VPM3Z" id="4AEtnDXf5el" role="3F10Kt">
+      <node concept="35HoNQ" id="4AEtnDY2l3$" role="3EZMnx">
+        <node concept="VPM3Z" id="4AEtnDY2l4w" role="3F10Kt">
           <property role="VOm3f" value="false" />
         </node>
+        <node concept="11LMrY" id="4AEtnDY3m69" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
-      <node concept="3F0ifn" id="owTaGBopLr" role="3EZMnx">
-        <property role="3F0ifm" value="-&gt;" />
+      <node concept="3F0ifn" id="4AEtnDXYyQ6" role="3EZMnx">
+        <property role="3F0ifm" value="-" />
         <ref role="1k5W1q" to="tpen:hinfsDb" resolve="EmptyCell" />
-        <node concept="VPxyj" id="owTaGBoqcp" role="3F10Kt">
+        <node concept="VPxyj" id="4AEtnDY2QdX" role="3F10Kt">
           <property role="VOm3f" value="false" />
         </node>
       </node>
@@ -3827,6 +3830,9 @@
         </node>
       </node>
       <node concept="l2Vlx" id="owTaGBpMpT" role="2iSdaV" />
+      <node concept="pVoyu" id="4AEtnDXYVMH" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
     </node>
   </node>
   <node concept="1h_SRR" id="4AEtnDXAtty">
